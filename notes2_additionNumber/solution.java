@@ -33,7 +33,6 @@ class Solution {
             curr.next = new ListNode(carry);
         }
         //虚拟节点的下一节点为最终结果
-        return dummyHead.next;
-    
+	return dummyHead.next;
     }
 }
